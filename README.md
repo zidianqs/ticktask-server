@@ -1,7 +1,2 @@
-## Graphql
-
-
-```shell
-brew install luarocks
-lit install bjornbytes/graphql
-```
+# ticktask-server
+嘀嗒清单

@@ -1,43 +1,47 @@
+# Compiled Lua sources
+luac.out
+
+# luarocks build files
+*.src.rock
+*.zip
+*.tar.gz
+
+# Object files
+*.o
+*.os
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.def
+*.exp
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
 # openresty
 *_temp
 work/*
 views/*
 *.pid
-
-# kdiff3 ignore
-*.orig
-
-# maven ignore
-target/
-
-# eclipse ignore
-.settings/
-.project
-.classpath
-
-# idea ignore
-.idea/
-*.ipr
-*.iml
-*.iws
-
-# temp ignore
-*.log
-*.cache
-*.diff
-*.patch
-*.tmp
-
-# system ignore
-.DS_Store
-Thumbs.db
-
-# package ignore (optional)
-# *.jar
-# *.war
-# *.zip
-# *.tar
-# *.tar.gz
-
-# pods ignore
-Pods/
+logs/
